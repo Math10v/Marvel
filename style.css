@@ -1,0 +1,15 @@
+h1, h2	{
+	color: red;
+}
+
+body	{
+	text-align: center;
+	font-family: arial;
+}
+ul	{text-align: left; }
+p {
+	font-size: 24px;
+}
+.square	{
+	background: pink
+}
