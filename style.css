@@ -1,15 +1,84 @@
-h1, h2	{
-	color: red;
+body.marvel{
+    font-family: "Roboto";
+    background-color: #E80E27;
+    max-width: 1400px;
+    margin: 0 auto;
 }
-
-body	{
-	text-align: center;
-	font-family: arial;
+/*/ barre de navigation /*/
+.header{
+    margin-top: 80px;
+    display: flex;
+    justify-content: end;
 }
-ul	{text-align: left; }
-p {
-	font-size: 24px;
+.logo{
+    max-width: 200px;
+    width: 100%;
+    box-shadow: 0px 0px 40px black;
 }
-.square	{
-	background: pink
+.my-navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.nav-item{
+    padding-left: 30px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+/*/ site /*/
+.page{
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+.section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+.lien-marvel{
+    color: white;
+    font-size: 50px;
+}
+/*/ accueil /*/
+.texte{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(255, 255, 255, 0.803) 0px 4px 12px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.bande-annonce{
+    display: flex;
+    flex-direction: column;
+}
+.image-avengers{
+    width: 350px;
+}
+.lien-annonce{
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*/ page classement /*/
+.liste-films{
+    color: white;
+    font-size: 20px;
+}
+.liste-films li span{
+    font-size: small;
+    font-weight: bold;
 }
